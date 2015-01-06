@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The URL you requested was not found!</title>
+<meta name="description" content="Manufacturers directory with products made in Taiwan & China. Find reliable Taiwan & China OEM/ODM manufacturers and contract manufacturing companies here.">
+<meta name="keywords" content="Taiwan Manufacturers, China Manufacturers, Suppliers, Manufacturers Directory, Exporters, Trade Leads, OEM/ODM, Taiwan Manufacturing Companies, China Manufacturing Companies, B2B Marketplace">
+<style>
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 826px;
+	margin-right: auto;
+	margin-left: auto;
+}
+img{border:0;}
+.logo{
+	height: 54px;
+	width: 160px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #efefef;
+	margin-top: 15px;
+}
+.copyright{
+	font-size: 0.9em;
+	color: #818181;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ffffff;
+	padding-top: 2px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}
+.otherSites{
+	font-size: 0.9em;
+	color: #9ebbd2;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	}
+.otherSites strong{color: #464646;}
+.otherSites a{
+	color: #666666;
+	text-decoration: underline;
+}
+.otherSites a:hover{color: #2873af;}
+.bottom_nav{
+	margin-top: 10px;
+	font-size: 0.9em;
+	margin-bottom: 7px;
+	color: #d8d8d8;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.bottom_nav a{color: #383838;padding-right: 2px;
+	padding-left: 2px;}
+.bottom_nav a:hover{color: #0b70bd;}
+.copyright a{color: #535353;font-size: 0.8em;}
+.copyright a:hover{color: #2f6cb7;}
+.seach{
+	background-image: url(images/no_page_new_03.jpg);
+	background-repeat: no-repeat;
+	height: 113px;
+	padding-left: 20px;
+	position: relative;
+}
+.seachBox{
+	position: absolute;
+	left: 120px;
+	width: 500px;
+	top: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size: 12px;
+}
+.seachBox h3{
+	font-size: 13px;
+	color: #754116;
+}
+.seachBox ul{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.seachBox input{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	padding: 3px;
+	margin-right: 3px;
+}
+</style>
+<script language="Javascript">
+
+function timeout_trigger() {
+top.location="http://www.allproducts.com";
+}
+
+function timeout_init() {
+    setTimeout('timeout_trigger()', 25000);
+}
+
+</script>
+</head>
+
+<body onload="timeout_init();">
+
+<div class="wrapper"><div class="logo"><a href="http://www.allproducts.com/" title="allproducts.com"><img src="images/logo.gif" alt="home" /></a></div>
+<img src="images/no_page_new_01.gif" /><img src="images/no_page_new_02.gif" border="0" usemap="#Map" /><div class="seach"><div class="seachBox"><script type="text/javascript">
+  var GOOG_FIXURL_LANG = 'en';
+  var GOOG_FIXURL_SITE = 'http://www.allproducts.com'
+</script>
+<script type="text/javascript"
+  src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
+</script></div></div>
+<img src="images/no_page_new_04.jpg" width="826" height="112" border="0" usemap="#Map2" />
+<map name="Map2" id="Map2"><area shape="rect" coords="557,21,710,38" href="mailto:service@allproducts.com" />
+</map>
+<map name="Map" id="Map">
+  <area shape="rect" coords="444,18,543,35" href="http://chinese.allproducts.com/" alt="allproducts.com" />
+<area shape="rect" coords="630,17,689,38" href="http://tw.allproducts.com/index.html" alt="domestic" />
+<area shape="rect" coords="545,19,627,36" href="http://www.allproducts.com/" alt="international" />
+</map></div>
+<div class="footer">
+  <div class="bottom_nav">
+				<a href="/">Home</a>
+				| <a href="http://hotsearch.allproducts.com/">Hot Search</a>
+				| <a href="http://trade.allproducts.com/">Trade Leads</a>
+				| <a href="/PR/">Press Rrelease</a>
+				| <a href="http://submit.allproducts.com">Submit Products™</a>
+				<!--
+				| <a href=""><img src="/APOC/images/ico_rss.gif" alt="rss" align="absmiddle" /> RSS</a>
+				-->
+				<br />
+				<a href="/aboutus.html">About Us</a>
+
+				| <a href="/aboutus_LinkExchange.html">Link Exchange</a>
+				| <a href="/aboutus_LegalPolicy.html">Legal Policy</a>
+				| <a href="/aboutus_PrivacyPolicy.html">Privacy Policy</a>
+				|<a href="/Inquiry/Buyer/JoinStep1.html">Join Us</a>
+				| <a href="/images2/APOC_UserGuide/user_guide.htm">User Guide</a>
+
+			</div>
+<div class="otherSites">
+				<!--strong>Our Partners:</strong>
+				<a href="http://www.3cmakers.com/" target="_blank">3cmakers</a> |
+				<a href="http://www.iamakers.com/" target="_blank">IAMakers </a> |
+				<a href="http://www.sportsmakers.com/" target="_blank">SportMakers</a-->
+			</div>
+<div class="copyright">Copyright &copy; 1996-2015 All Products Online Corp. All rights reserved</div>
+
+</div>
+</body>
+</html>
+

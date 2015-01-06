@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desktop Sidebar - Download</title>
+    <meta http-equiv="Content-Language" content="en-us">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+    <link href="/Content/main.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/banner.css" rel="stylesheet" type="text/css" />
+
+    
+</head>
+
+<body>
+    <!-- nav start -->
+    <div>
+        <h1 id="banner"><a href="index.html" title="Home">Home</a></h1>
+    </div>
+    <div id="nav">
+        <ul id="menu">
+            <li id="nl1"><a href="/index.html" title="Home">Home</a></li>
+            <li id="nl2"><a href="/download.html" title="Download">Download</a></li>
+            <li id="nl3"><a href="/fileforum.php" title="Extras">Extras</a></li>
+            <li id="nl4"><a href="/support.html" title="Support">Support</a></li>
+        </ul>
+    </div>
+    <span id="navsep"></span>   
+    <!-- nav end -->
+
+    
+<div id="simplepage">
+
+<h2>The page/file you're looking for doesn't exist.</h2>
+<h2>
+Are you looking for the latest version of Desktop Sidebar?  If so, please <a href="http://www.desktopsidebar.com/download.html">go here</a>.
+</h2>
+<h2>Came across this page another way?  Please email the <a
+href="mailto:support@desktopsidebar.com?Subject=Page Not Found">webmaster</a>.</h2>
+
+</div>
+
+
+    <!-- footer start -->
+    <div class="pagefooter">
+    <p>
+    <a href="/index.html" title="Home">Home</a> |
+    <a href="/download.html" title="Download">Download</a> |
+    <a href="/fileforum.php" title="Extras">Extras</a> |
+    <a href="/devguide/devGuide.html" title="DevGuide">DevGuide</a> |
+    <a href="/support.html" title="Support">Support</a> |
+    <a href="/faq.html" title="FAQ">FAQ</a> |
+    <a href="/htmlhelp/overview.html" title="Help">On-line Help</a> |
+    <a href="mailto:support@desktopsidebar.com" title="Contact Us">Contact Us</a>
+    </p>
+    <p>Copyright 2007 Idea2 s.c. All rights reserved.</p>
+    </div>
+    <!-- footer end -->
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20369641-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</body>
+</html>

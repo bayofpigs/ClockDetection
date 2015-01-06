@@ -1,0 +1,761 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width">  
+<title>Weather Stations at WeatherShack.com: Weather Instruments, Weather Station, Wireless Weather Stations, Home Weather Stations</title>
+<meta name="keywords" content="weather stations,weather instruments,weather station,wireless weather stations,home weather stations,weather instrument,weather thermometers,la crosse weather stations,davis weather stations,affordable weather stations,complete weather stations,basic weather stations,wireless rain gauges,digital atomic wall clocks">
+<meta name="description" content="Weather Stations at WeatherShack.com. Your source for weather instruments, weather station, wireless weather stations and home weather stations">
+<meta name="robots" content="index,follow">
+<!-- Weather Stations at WeatherShack.com: Weather Instruments, Weather Station, Wireless Weather Stations, Home Weather Stations -->
+  <link rel='stylesheet' href='/JQuery/jshowoff-0.12.css' type='text/css' />
+<style type="text/css">
+<!--
+p.jshowoff-controls {
+	width:595px;
+	display:none;
+}
+-->
+</style> <meta property="og:title" content="WeatherShack.com" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.weathershack.com/" />
+<meta property="og:image" content="http://www.weathershack.com/images/logo_facebook_meta_tag.gif" />
+<meta property="og:description" content="WeatherShack.com is the leading destination for electronic weather stations, weather forecasters, weather radios, rain gauges, clocks, and other weather related equipment. If you have an interest in weather or looking for great gift ideas, check them out!" />
+<meta property="fb:admins" content="1360021253" />
+<meta property="og:site_name" content="WeatherShack.com" />
+
+<link rel="shortcut icon" href="/images/site-template/favicon.ico" />
+
+<!-- <link rel='stylesheet' href='/JQuery/css/smoothness/jquery-ui-1.8.17.custom.css' type='text/css'> -->
+<script type="text/javascript" src="/JQuery/JQuery-1.7.2.min.js"></script>
+<script type='text/javascript' src='/JQuery/jquery-ui-1.9.2.min.js'></script>
+<script type="text/javascript" src="/JQuery/jquery.json-2.3.js"></script>
+<script type='text/javascript' src='/JQuery/email.js'></script>
+<link href="/css/stylesheet.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<script type="text/javascript">
+	//script adds hovered class to top & left navigation for IE6 hover display - see stylesheet
+	(function ($) {
+	$(document).ready(function() {
+		  $('#nav li.navMain').hover(function() {
+			$(this).addClass('hovered');
+		  }, function() {
+			$(this).removeClass('hovered');
+		  });
+		});
+	}(jQuery));
+
+	// deal with width problem on mobile
+//	if (screen && screen.availWidth && 1048<screen.availWidth)
+//		$('html').css('min-width',screen.availWidth);
+</script>
+<link href="/css/stylesheet_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]--> 
+<!--[if IE 7]>
+<link href="/css/stylesheet_ie7.css" rel="stylesheet" type="text/css" />
+<![endif]--> 
+<script type="text/javascript">
+// <![CDATA[
+$.ajaxSetup({"cache-control":"no-cache" });	// defeat Safari 6 bug
+
+function removeFilter(x)
+{
+	if (!window.sessionStorage) return true;
+	var archive = window.sessionStorage.getItem('product_listing');
+	if (!archive) return true; // no prior record
+	archive = $.evalJSON(archive);
+	if (archive[x])
+		{
+		delete archive[x];
+		window.sessionStorage.setItem('product_listing',$.toJSON(archive));
+		}
+	return true;
+};
+// ]]>
+</script>
+ <script type='text/javascript' src='/JQuery/jquery.jshowoff-0.12.min.js'></script>
+
+<!--Product Compare/Help Me Decide Shadowbox-->
+<!--
+<script type="text/javascript" src="js/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+--> <!-- Tracking code -->
+<script type="text/javascript" id="wa_u"></script>
+<script type="text/javascript">//<![CDATA[
+wa_account="889A9E8B979A8D8C979E9C94"; wa_location=22;
+wa_pageName=location.pathname;  // you can customize the page name here
+document.cookie='__support_check=1';wa_hp='http';
+wa_rf=document.referrer;wa_sr=window.location.search;
+wa_tz=new Date();if(location.href.substr(0,6).toLowerCase()=='https:')
+wa_hp='https';wa_data='&an='+escape(navigator.appName)+ 
+'&sr='+escape(wa_sr)+'&ck='+document.cookie.length+
+'&rf='+escape(wa_rf)+'&sl='+escape(navigator.systemLanguage)+
+'&av='+escape(navigator.appVersion)+'&l='+escape(navigator.language)+
+'&pf='+escape(navigator.platform)+'&pg='+escape(wa_pageName);
+wa_data=wa_data+'&cd='+
+screen.colorDepth+'&rs='+escape(screen.width+ ' x '+screen.height)+
+'&tz='+wa_tz.getTimezoneOffset()+'&je='+ navigator.javaEnabled();
+wa_img=new Image();wa_img.src=wa_hp+'://counter.hitslink.com/statistics.asp'+
+'?v=1&s='+wa_location+'&eacct='+wa_account+wa_data+'&tks='+wa_tz.getTime();
+document.getElementById('wa_u').src=wa_hp+'://counter.hitslink.com/track.js'; //]]>
+</script>
+<!-- END Tracking code -->
+
+<!--Google Analytics tracking-->
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-23640299-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+//		Base Google Analytics
+//		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+//		Display Tracking version
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<!--END Google Analytics-->
+
+ </head>
+
+<body> 	<div id="siteHeader">
+		<div id="headerContent">
+			<div id="headerLogo"><a href="http://www.weathershack.com/"><img src="/images/site-template/hdr_logo.gif" width="292" height="107" alt="Weathershack Logo" /></a></div>
+			<div id="accountLinks">
+				<!-- <a href="#">MY ACCOUNT</a> | --> <a href="/cgi-bin/ReviewCart.cgi">VIEW CART</a> (<span id="cart_count">0</span> ITEMS)  <span id="cart_value" class="cartTotal">$0.00</span> <!-- | <a href="#">CHECKOUT</a> -->
+			</div>
+			<div id="hdrGuarantee"></div>
+			<div id="hdrShipping"><img src="/images/site-template/free_shipping_50_lg.gif" width="200" height="72" alt="Free Shipping for Continental US orders over $50" /></div>
+			<div id="hdrPhone"><img src="/images/site-template/cust_service_phone.gif" width="294" height="24" alt="Customer Service (888) 992-2270" /></div>
+			<div id="mcafee" style="padding-top:25px; padding-left: 15px"><a target="_blank" href="https://www.scanalert.com/RatingVerify?ref=www.weathershack.com"><img src="https://images.scanalert.com/meter/www.weathershack.com/12.gif" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." width="115" height="32" /></a></div>
+			<div id="hdrSearch">
+<script type="text/javascript">
+<!--
+var ValidateSearch = (window.sessionStorage) ?
+function () {
+	if (   document.search_form.search.value===''
+		|| document.search_form.search.value==='Enter search keyword')
+		{
+		alert('Please enter a search term before searching.');
+		return false;
+		}
+	var archive = window.sessionStorage.getItem('product_listing');
+	if (archive)
+		{
+		archive = $.evalJSON(archive);
+		if (archive['search:'+document.search_form.search.value])
+			{
+			archive['search:'+document.search_form.search.value] = '';
+			window.sessionStorage.setItem('product_listing',$.toJSON(archive));
+			}
+		}
+	return true;
+} : function() {
+	if (   document.search_form.search.value===''
+		|| document.search_form.search.value==='Enter search keyword')
+		{
+		alert('Please enter a search term before searching.');
+		return false;
+		}
+	return true;
+};
+-->
+</script>
+				<form name="search_form" action="/cgi-bin/SearchPage.cgi" method="post" onsubmit="return ValidateSearch();">
+					<div><input type="text" name="search" class="searchBox" value="Enter search keyword" onfocus="if(this.value == 'Enter search keyword') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter search keyword';}" /></div>
+					<div><input type="image" class="searchButton" src="/images/site-template/search_go.gif" alt="Search" /></div>
+				</form> 
+			</div>
+			<nav>
+			<div id="navigationArea">
+				<ul id="nav">   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/weather-stations.html">Weather Stations</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/basic-home-weather-stations.html"><img src="/images/categories/top-menu-thumbnails/basic-home-weather-stations.jpg" alt="Basic Home Weather Stations" title="Basic Home Weather Stations" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/basic-home-weather-stations.html">Basic Home Weather Stations</a></div>  <div class="navCatDesc">Depending on model, these stations monitor indoor/outdoor temperature, indoor/outdoor humidity and barometric pressure.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/complete-home-weather-stations.html"><img src="/images/categories/top-menu-thumbnails/complete-home-weather-stations.jpg" alt="Complete Home Weather Stations" title="Complete Home Weather Stations" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/complete-home-weather-stations.html">Complete Home Weather Stations</a></div>  <div class="navCatDesc">Complete stations monitor wind, rain, temperature, humidity, and barometric pressure. Most also have the ability to interface with a computer.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/professional-weather-stations.html"><img src="/images/categories/top-menu-thumbnails/professional-weather-stations.jpg" alt="Professional Weather Stations" title="Professional Weather Stations" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/professional-weather-stations.html">Professional Weather Stations</a></div>  <div class="navCatDesc">These stations are designed to meet world meteorological standards. Aside from standard measurements, many have optional specialized sensors.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/handheld-wind-weather-meters.html"><img src="/images/categories/top-menu-thumbnails/wind-and-weather-meters.jpg" alt="Handheld Wind &amp; Weather Meters" title="Handheld Wind &amp; Weather Meters" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/handheld-wind-weather-meters.html">Handheld Wind &amp; Weather Meters</a></div>  <div class="navCatDesc">These meters provide weather measurements, from a simple portable anemometer to a complete weather station, right in the palm of your hand.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/wi-fi-weather-stations.html"><img src="/images/categories/top-menu-thumbnails/wifi-weather-stations.jpg" alt="Wi-Fi Weather Stations" title="Wi-Fi Weather Stations" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/wi-fi-weather-stations.html">Wi-Fi Weather Stations</a></div>  <div class="navCatDesc">Wi-Fi weather stations have one or more sensors that communicate via your wireless network. These stations often support smartphone and web applications.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/analog-stations-barometers.html"><img src="/images/categories/top-menu-thumbnails/analog-weather-stations.jpg" alt="Analog Stations &amp; Barometers" title="Analog Stations &amp; Barometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/analog-stations-barometers.html">Analog Stations &amp; Barometers</a></div>  <div class="navCatDesc">Analog weather stations offer a classic, traditional appearance that can enhance the decor of your boat, office, home or garden.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/station-mounting-hardware.html"><img src="/images/categories/top-menu-thumbnails/weather-station-mounting-systems.jpg" alt="Station Mounting Hardware" title="Station Mounting Hardware" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/station-mounting-hardware.html">Station Mounting Hardware</a></div>  <div class="navCatDesc">These mounting products are primarily intended for use with the Davis Vantage Pro2 and the RainWise MKIII weather stations.</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/thermometers.html">Thermometers</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/classic-dial-thermometers.html"><img src="/images/categories/top-menu-thumbnails/classic-dial-thermometers.jpg" alt="Classic Dial Thermometers" title="Classic Dial Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/classic-dial-thermometers.html">Classic Dial Thermometers</a></div>  <div class="navCatDesc">With superior quality materials and their ability to withstand the elements, these dial thermometers are perfect for the home, garden, patio or pool.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/classic-tube-thermometers.html"><img src="/images/categories/top-menu-thumbnails/classic-tube-thermometers.jpg" alt="Classic Tube Thermometers" title="Classic Tube Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/classic-tube-thermometers.html">Classic Tube Thermometers</a></div>  <div class="navCatDesc">Classic tube thermometers measure temperature by using a liquid encapsulated within a glass tube that rises and falls with temperature changes.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/digital-wireless-thermometers.html"><img src="/images/categories/top-menu-thumbnails/digital-wireless-thermometers.jpg" alt="Digital &amp; Wireless Thermometers" title="Digital &amp; Wireless Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/digital-wireless-thermometers.html">Digital &amp; Wireless Thermometers</a></div>  <div class="navCatDesc">Digital thermometers are great for basic temperature information. Small, compact, easy-to-read and affordable!</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/bird-feeder-thermometers.html"><img src="/images/categories/top-menu-thumbnails/bird-feeder-thermometers.jpg" alt="Bird Feeder Thermometers" title="Bird Feeder Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/bird-feeder-thermometers.html">Bird Feeder Thermometers</a></div>  <div class="navCatDesc">Bird Feeder Thermometers attract a variety of birds including chickadees, cardinals, sparrows, and many more, and are available in popular finishes that match today's outdoor furniture.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/analog-clock-thermometer-combos.html"><img src="/images/categories/top-menu-thumbnails/analog-clock-thermometer-combos.jpg" alt="Analog Clock/Thermometer Combos" title="Analog Clock/Thermometer Combos" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/analog-clock-thermometer-combos.html">Analog Clock/Thermometer Combos</a></div>  <div class="navCatDesc">Analog clock/thermometers give you time and temperature at a glance!  Perfect outside decor for deck, garden, pool or porch.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/digital-clock-thermometer-combos.html"><img src="/images/categories/top-menu-thumbnails/digital-clock-thermometer-combos.jpg" alt="Digital Clock/Thermometer Combos" title="Digital Clock/Thermometer Combos" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/digital-clock-thermometer-combos.html">Digital Clock/Thermometer Combos</a></div>  <div class="navCatDesc">Digital clock/thermometer combos offer automatic setting clocks, temperature, a variety of designs and natural color finishes.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/handheld-pocket-thermometers.html"><img src="/images/categories/top-menu-thumbnails/handheld-pocket-thermometers.jpg" alt="Handheld &amp; Pocket Thermometers" title="Handheld &amp; Pocket Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/handheld-pocket-thermometers.html">Handheld &amp; Pocket Thermometers</a></div>  <div class="navCatDesc">Used by sportsmen and outdoor enthusiast to instantly and accurately monitor temperature and other weather variable measurements.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/traditional-analog-thermometers.html"><img src="/images/categories/top-menu-thumbnails/traditional-analog-thermometers.jpg" alt="Traditional Analog Thermometers" title="Traditional Analog Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/traditional-analog-thermometers.html">Traditional Analog Thermometers</a></div>  <div class="navCatDesc">These traditional analog thermometers are sure to please with their beauty, accurate measurements and multitude of different purposes.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/web-alert-thermometers.html"><img src="/images/categories/top-menu-thumbnails/web-alert-thermometers.jpg" alt="Web/Alert Thermometers" title="Web/Alert Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/web-alert-thermometers.html">Web/Alert Thermometers</a></div>  <div class="navCatDesc">Be alerted instantly if temperature, humidity and precipitation, and severe weather exceed your preset limits.</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/rain-gauges.html">Rain Gauges</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/digital-wireless-rain-gauges.html"><img src="/images/categories/top-menu-thumbnails/digital-rain-gauges.jpg" alt="Digital &amp; Wireless Rain Gauges" title="Digital &amp; Wireless Rain Gauges" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/digital-wireless-rain-gauges.html">Digital &amp; Wireless Rain Gauges</a></div>  <div class="navCatDesc">These rain gauges feature a self-emptying tipping bucket. The accumulated rainfall is displayed on a convenient digital display.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/manual-rain-gauges.html"><img src="/images/categories/top-menu-thumbnails/manual-rain-gauges.jpg" alt="Manual Rain Gauges" title="Manual Rain Gauges" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/manual-rain-gauges.html">Manual Rain Gauges</a></div>  <div class="navCatDesc">Manual rain gauges are simply a tube, closed on one end and calibrated to indicate the amount of liquid. They are emptied manually.</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/wind-chimes.html">Wind Chimes</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/aluminum-wind-chimes.html"><img src="/images/categories/top-menu-thumbnails/aluminum-wind-chimes.jpg" alt="Aluminum Wind Chimes" title="Aluminum Wind Chimes" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/aluminum-wind-chimes.html">Aluminum Wind Chimes</a></div>  <div class="navCatDesc">Aluminum chimes offer a wide range of tones due to the different lengths of the tubes.  Offered in many colors and sizes, this chimes are sure to please.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/capiz-shell-wind-chimes.html"><img src="/images/categories/top-menu-thumbnails/capiz-shell-wind-chimes.jpg" alt="Capiz Shell Wind Chimes" title="Capiz Shell Wind Chimes" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/capiz-shell-wind-chimes.html">Capiz Shell Wind Chimes</a></div>  <div class="navCatDesc">Add colorful unique flare to any space. Many include a variety of accents such as stones, mirrors, glass and bamboo.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/bells-windbells.html"><img src="/images/categories/top-menu-thumbnails/bells-windbells.jpg" alt="Bells &amp; Windbells" title="Bells &amp; Windbells" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/bells-windbells.html">Bells &amp; Windbells</a></div>  <div class="navCatDesc">Thought to bring good luck and prosperity!  These are sure to please with their eclectic variety of sound, materials, and clever designs.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/bamboo-wind-chimes.html"><img src="/images/categories/top-menu-thumbnails/bamboo-wind-chimes.jpg" alt="Bamboo Wind Chimes" title="Bamboo Wind Chimes" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/bamboo-wind-chimes.html">Bamboo Wind Chimes</a></div>  <div class="navCatDesc">These produce a mellow natural sound unlike any other chime.  Offering unique styles from festive to whimsical, to classic you're sure to find the one that fits your space.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/wind-gongs.html"><img src="/images/categories/top-menu-thumbnails/wind-gongs.jpg" alt="Wind Gongs" title="Wind Gongs" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/wind-gongs.html">Wind Gongs</a></div>  <div class="navCatDesc">Hand-crafted and toned wind gongs offer a brilliant, authentic resonance of the traditional gong from the Far East.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/crystal-glass-wind-chimes.html"><img src="/images/categories/top-menu-thumbnails/crystal-glass-wind-chimes.jpg" alt="Crystal &amp; Glass Wind Chimes" title="Crystal &amp; Glass Wind Chimes" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/crystal-glass-wind-chimes.html">Crystal &amp; Glass Wind Chimes</a></div>  <div class="navCatDesc">When placed near a light source, these chimes sparkle and glimmer, much like a suncatcher.  Offered in many sizes, you can add sparkle to little spaces or big spaces!</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/clocks.html">Clocks</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/digital-wall-table-clocks.html"><img src="/images/categories/top-menu-thumbnails/digital-wall-table-clocks.jpg" alt="Digital Wall &amp; Table Clocks" title="Digital Wall &amp; Table Clocks" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/digital-wall-table-clocks.html">Digital Wall &amp; Table Clocks</a></div>  <div class="navCatDesc">These digital wall and table clocks are available in different finishes and have features such as temperature, moon phase, or forecast icons.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/analog-wall-clocks.html"><img src="/images/categories/top-menu-thumbnails/analog-wall-clocks.jpg" alt="Analog Wall Clocks" title="Analog Wall Clocks" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/analog-wall-clocks.html">Analog Wall Clocks</a></div>  <div class="navCatDesc">Analog wall clocks have mechanical parts that physically move as opposed to the LCD screen of digital clocks. A variety of sizes, styles and features are available.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/outdoor-clocks.html"><img src="/images/categories/top-menu-thumbnails/outdoor-clocks.jpg" alt="Outdoor Clocks" title="Outdoor Clocks" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/outdoor-clocks.html">Outdoor Clocks</a></div>  <div class="navCatDesc">Outdoor clocks are the perfect accessory for any patio or pool deck area, adding an intriguing design element to your outdoor decor.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/analog-table-mantel-clocks.html"><img src="/images/categories/top-menu-thumbnails/analog-table-mantel-clocks.jpg" alt="Analog Table &amp; Mantel Clocks" title="Analog Table &amp; Mantel Clocks" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/analog-table-mantel-clocks.html">Analog Table &amp; Mantel Clocks</a></div>  <div class="navCatDesc">Analog table and mantel clocks have mechanical parts that physically move. Various finishes are available. Some models also have advanced functions.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/tide-clocks.html"><img src="/images/categories/top-menu-thumbnails/tide-clocks.jpg" alt="Tide Clocks" title="Tide Clocks" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/tide-clocks.html">Tide Clocks</a></div>  <div class="navCatDesc">Tide clocks keep track of the moon as it orbits the earth, with the face of the tide clock displaying high tide at the top and low tide at the bottom.</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/weather-radios.html">Weather Radios</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/same-weather-radios.html"><img src="/images/categories/top-menu-thumbnails/SAME-weather-radios.jpg" alt="SAME Weather Radios" title="SAME Weather Radios" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/same-weather-radios.html">SAME Weather Radios</a></div>  <div class="navCatDesc">Specific Area Message Encoding (S.A.M.E.) allows you to program your weather radio to receive alerts only from the areas you want to hear about.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/portable-weather-radios.html"><img src="/images/categories/top-menu-thumbnails/portable-weather-radios.jpg" alt="Portable Weather Radios" title="Portable Weather Radios" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/portable-weather-radios.html">Portable Weather Radios</a></div>  <div class="navCatDesc">Portable weather radios provide weather information and emergency broadcasts when traveling, boating, hiking or working outdoors.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/desktop-weather-radios.html"><img src="/images/categories/top-menu-thumbnails/desktop-weather-radios.jpg" alt="Desktop Weather Radios" title="Desktop Weather Radios" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/desktop-weather-radios.html">Desktop Weather Radios</a></div>  <div class="navCatDesc">Stay up-to-date with the latest weather, hazard and civil emergency information with one of our desktop weather radios.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/hand-crank-weather-radios.html"><img src="/images/categories/top-menu-thumbnails/hand-crank-weather-radios.jpg" alt="Hand Crank Weather Radios" title="Hand Crank Weather Radios" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/hand-crank-weather-radios.html">Hand Crank Weather Radios</a></div>  <div class="navCatDesc">Recharge your own weather radio with the integrated hand crank.  Never miss important weather information and emergency broadcasts again due to power failure.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/two-way-weather-radios.html"><img src="/images/categories/top-menu-thumbnails/two-way-radios.jpg" alt="Two-Way Weather Radios" title="Two-Way Weather Radios" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/two-way-weather-radios.html">Two-Way Weather Radios</a></div>  <div class="navCatDesc">Stay in touch with your group using a rugged two-way weather radio. Most include NOAA weather alerts.</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>   <li class="navMain"><a class="navMain" href="http://www.weathershack.com/category/additional-products.html">Additional Products</a>   <div class="subcategories" style="right:186px">
+							<ul>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/category/parts-accessories-by-brand.html"><img src="/images/categories/top-menu-thumbnails/brand-accessories.jpg" alt="Parts &amp; Accessories By Brand" title="Parts &amp; Accessories By Brand" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/category/parts-accessories-by-brand.html">Parts &amp; Accessories By Brand</a></div>  <div class="navCatDesc">Enhance your experience with accessories from industry-leading name brands.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/lightning-detectors.html"><img src="/images/categories/top-menu-thumbnails/lightning-detectors.jpg" alt="Lightning Detectors" title="Lightning Detectors" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/lightning-detectors.html">Lightning Detectors</a></div>  <div class="navCatDesc">Lightning detectors are used to detect dangerous lightning produced by approaching thunderstorms.  Self-contained devices, they gather data independently of any other weather information source.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/category/anemometers.html"><img src="/images/categories/top-menu-thumbnails/anemometers.jpg" alt="Anemometers" title="Anemometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/category/anemometers.html">Anemometers</a></div>  <div class="navCatDesc">Anemometers measure wind speed. Some models also measure direction. They are available in fixed location and portable models.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/bird-feeder-thermometers.html"><img src="/images/categories/top-menu-thumbnails/bird-feeder-thermometers.jpg" alt="Bird Feeder Thermometers" title="Bird Feeder Thermometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/bird-feeder-thermometers.html">Bird Feeder Thermometers</a></div>  <div class="navCatDesc">Bird Feeder Thermometers attract a variety of birds including chickadees, cardinals, sparrows, and many more, and are available in popular finishes that match today's outdoor furniture.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/stormglasses.html"><img src="/images/categories/top-menu-thumbnails/stormglasses.jpg" alt="Stormglasses" title="Stormglasses" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/stormglasses.html">Stormglasses</a></div>  <div class="navCatDesc">Stormglasses are used for weather prediction. The crystals inside the sealed glass chamber indicate changes in the weather.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/category/hygrometers.html"><img src="/images/categories/top-menu-thumbnails/hygrometers.jpg" alt="Hygrometers" title="Hygrometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/category/hygrometers.html">Hygrometers</a></div>  <div class="navCatDesc">Hygrometers measure the humidity or amount of moisture (water vapor) in the air. They are available in digital and analog models.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/crystal-suncatchers.html"><img src="/images/categories/top-menu-thumbnails/suncatchers.jpg" alt="Crystal Suncatchers" title="Crystal Suncatchers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/crystal-suncatchers.html">Crystal Suncatchers</a></div>  <div class="navCatDesc">Suncatchers are like an optical equivalent to wind chimes, they are music for the eyes. All of our Suncatchers feature dazzling Austrian crystal.</div>
+								</li>  <li class="navSub" style="list-style:none">  <div class="navCatPic"><a href="http://www.weathershack.com/listing/inclinometers.html"><img src="/images/categories/top-menu-thumbnails/inclinometers.jpg" alt="Inclinometers" title="Inclinometers" /></a></div>
+									<div class="navCatTitle"><a href="http://www.weathershack.com/listing/inclinometers.html">Inclinometers</a></div>  <div class="navCatDesc">Inclinometers, measure how much a vessel sitting in water slants as the water conditions change.  Nice, unique gift!</div>
+								</li>  </ul>
+							<div class="menuFtrBar"><img src="/images/site-template/nav_ftrbar_logo.gif" alt="WeatherShack Logo" /></div>
+						</div>  </li>  </ul>
+<script type="text/javascript">
+<!--
+var max_height = 0;
+var heights = [];
+$('a.navMain').each(function(i){
+	var h = $(this).height();
+	if (max_height<h) max_height = h;
+	heights.push(h);
+});
+$('a.navMain').each(function(i){
+	if (max_height>heights[i]) {
+		$(this).css('margin-top',(max_height-heights[i])/2.0);
+	}
+});
+
+function go_to_brand_page(x)
+{
+	if (x) window.location.href = x;
+}
+-->
+</script>			
+<!--			<div id="mcafee"><a target="_blank" href="https://www.scanalert.com/RatingVerify?ref=www.weathershack.com"><img src="https://images.scanalert.com/meter/www.weathershack.com/12.gif" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." width="115" height="32" /></a></div> -->
+<form style="padding-left:0px">
+    <select id="brand" name="brand" onchange="go_to_brand_page(this.value)" style="font-size:12px;color:#3C1F73;margin-top:8px;height:22px;border-radius:5px;margin-left:-4px;padding-left:0px">
+	<option value=''><b>Shop by Brand</b></option>  <option value='/category/acurite.html'><a href='/category/acurite.html'>AcuRite</a></option>  <option value='/listing/alert-works.html'><a href='/listing/alert-works.html'>Alert Works</a></option>  <option value='/listing/arias.html'><a href='/listing/arias.html'>Arias</a></option>  <option value='/listing/arias-elite.html'><a href='/listing/arias-elite.html'>Arias Elite</a></option>  <option value='/listing/conant.html'><a href='/listing/conant.html'>Conant</a></option>  <option value='/listing/corinthian-bells.html'><a href='/listing/corinthian-bells.html'>Corinthian Bells</a></option>  <option value='/category/davis-instruments.html'><a href='/category/davis-instruments.html'>Davis Instruments</a></option>  <option value='/category/kestrel.html'><a href='/category/kestrel.html'>Kestrel</a></option>  <option value='/category/la-crosse-technology.html'><a href='/category/la-crosse-technology.html'>La Crosse Technology</a></option>  <option value='/listing/laylin-associates.html'><a href='/listing/laylin-associates.html'>Laylin Associates</a></option>  <option value='/category/meade-instruments.html'><a href='/category/meade-instruments.html'>Meade Instruments</a></option>  <option value='/category/midland.html'><a href='/category/midland.html'>Midland</a></option>  <option value='/category/new-mountain.html'><a href='/category/new-mountain.html'>New Mountain</a></option>  <option value='/listing/oh-crow.html'><a href='/listing/oh-crow.html'>Oh Crow!</a></option>  <option value='/category/oregon-scientific.html'><a href='/category/oregon-scientific.html'>Oregon Scientific</a></option>  <option value='/listing/outdoors-technologies.html'><a href='/listing/outdoors-technologies.html'>Outdoors Technologies</a></option>  <option value='/listing/productive-alternatives.html'><a href='/listing/productive-alternatives.html'>Productive Alternatives</a></option>  <option value='/category/rainwise.html'><a href='/category/rainwise.html'>Rainwise</a></option>  <option value='/listing/shenandoah-melodies.html'><a href='/listing/shenandoah-melodies.html'>Shenandoah Melodies</a></option>  <option value='/category/speedtech-instruments.html'><a href='/category/speedtech-instruments.html'>Speedtech Instruments</a></option>  <option value='/category/springfield-instruments.html'><a href='/category/springfield-instruments.html'>Springfield Instruments</a></option>  <option value='/category/taylor-precision.html'><a href='/category/taylor-precision.html'>Taylor Precision</a></option>  <option value='/category/thunderbolt.html'><a href='/category/thunderbolt.html'>Thunderbolt</a></option>  <option value='/listing/weatherland.html'><a href='/listing/weatherland.html'>Weatherland</a></option>  <option value='/category/weems-plath.html'><a href='/category/weems-plath.html'>Weems &amp; Plath</a></option>  <option value='/category/woodstock.html'><a href='/category/woodstock.html'>Woodstock</a></option>  </select>
+</form>
+<script type="text/javascript">
+// <![CDATA[
+$(window).load(function() {
+	$('#brand')[0].selectedIndex = 0;
+});
+// ]]>
+</script>
+
+			</div><!--END navigationArea--></nav>
+		</div>
+	</div>
+
+ <div id="siteBackground">
+		<div id="siteContent"> 
+ <div id="homepageBanner">
+				<div id="rotatingArea">
+<!-- winter 2012/2013 -->
+<!--
+					<div class="on"><img src="/images/site-template/home-page/mainban_ten-years.jpg" height="335" width="600" alt="Weather Stations" /></div>
+					<div class="off"><a href="/category/weather-stations.html"><img src="/images/site-template/home-page/mainban_weather-stations-fall.jpg" height="335" width="600" alt="Weather Stations" /></a></div>
+					<div class="off"><a href="/category/thermometers.html"><img src="/images/site-template/home-page/mainban_outdoor-thermometers-winter.jpg" height="335" width="600" alt="Thermometers" /></a></div>
+					<div class="off"><a href="/category/weather-radios.html"><img src="/images/site-template/home-page/mainban_weather-radios-winter.jpg" height="335" width="600" alt="Weather Radios" /></a></div>
+-->
+<!-- spring 2013 -->
+<!--
+					<div class="on"><img src="/images/site-template/home-page/mainban_ten-years-summer.jpg" height="335" width="600" alt="Weather Stations" /></div>
+					<div class="off"><a href="/category/weather-stations.html"><img src="/images/site-template/home-page/mainban_weather-stations-summer.jpg" height="335" width="600" alt="Weather Stations" /></a></div>
+					<div class="off"><a href="/category/wind-chimes.html"><img src="/images/site-template/home-page/mainban_wind-chimes-summer.jpg" height="335" width="600" alt="Wind Chimes" /></a></div>
+					<div class="off"><a href="/category/thermometers.html"><img src="/images/site-template/home-page/mainban_outdoor-thermometers-summer.jpg" height="335" width="600" alt="Outdoor Thermometers" /></a></div>
+-->
+<!-- fall 2013 -->
+					<div class="on"><img src="/images/categories/_home/weather-shack.jpg" height="335" width="600" alt="Welcome to Weather Shack" /></div>
+					<div class="off"><a href="/category/weather-stations.html"><img src="/images/categories/_home/weather-stations.jpg" height="335" width="600" alt="Weather Stations" /></a></div>
+					<div class="off"><a href="/category/wind-chimes.html"><img src="/images/categories/_home/wind-chimes.jpg" height="335" width="600" alt="Wind Chimes" /></a></div>
+					<div class="off"><a href="/category/thermometers.html"><img src="/images/categories/_home/outdoor-thermometers.jpg" height="335" width="600" alt="Outdoor Thermometers" /></a></div>
+				</div>
+				<script type="text/javascript">		
+					$(document).ready(function(){ $('#rotatingArea').jshowoff({controls:false,links:false,speed:6000,changeSpeed:500,hoverPause:false}); });
+				</script>
+				<div id="rotatingArea_controls"></div>
+			</div>
+			<div id="catBannersHdr"><img src="/images/site-template/hdr_featuredcategories.gif" height="29" width="362" alt="Featured Categories" /></div>
+			<div id="catBannersUpper">
+				<div class="catBannerTop"><a href="/category/weather-stations.html"><img src="/images/categories/_home/featured/weather-stations.jpg" width="362" height="146" alt="Weather Stations" /></a></div>
+				<div class="catBannerTopLeft catBannerBottom"><a href="/category/thermometers.html"><img src="/images/categories/_home/featured/thermometers.jpg" width="178" height="146" alt="Thermometers" /></a></div>
+				<div class="catBannerRight catBannerBottom"><a href="/category/rain-gauges.html"><img src="/images/categories/_home/featured/rain-gauges.jpg" width="178" height="146" alt="Rain Gauges" /></a></div>
+			</div>
+			<div id="shippingSatisfaction"><img src="/images/site-template/shipping_satisfaction_bar_batteries.gif" width="970" height="87" alt="Free Shipping US orders over $50, 60-day Satisfaction Guarantee" /></div>
+			<div id="catBannersLower">
+			    <div class="catBannerLeft"><a href="/listing/analog-stations-barometers.html"><img src="/images/categories/_home/featured/analog-weather-stations.jpg" width="194" height="146" alt="Analog Weather Stations and Barometers" /></a></div>
+				<div class="catBannerLeft"><a href="/category/wind-chimes.html"><img src="/images/categories/_home/featured/wind-chimes.jpg" width="367" height="146" alt="Wind Chimes" /></a></div>
+				<div class="catBannerLeft"><a href="/category/weather-radios.html"><img src="/images/categories/_home/featured/weather-radios.jpg" width="194" height="146" alt="Weather Radios" /></a></div>
+				<div class="catBannerRight"><a href="/category/clocks.html"><img src="/images/categories/_home/featured/clocks.jpg" width="194" height="146" alt="Clocks" /></a></div>
+			</div>
+			
+			<!--[CS] Each Brand logo links to a category page featuring products filtered by that Brand-->
+			<!--[CS] Shop All Brands links to a static page listing all brands with links-->
+			<!--
+			<div id="brandbox">
+				<div class="brandLogo"><a href="#"><img src="/images/site-template/logo_davis.gif" width="97" height="41" alt="Davis" /></a></div>
+				<div class="brandLogo"><a href="#"><img src="/images/site-template/logo_kestrel.gif" width="96" height="41" alt="Kestrel" /></a></div>
+				<div class="brandLogo"><a href="#"><img src="/images/site-template/logo_honeywell.gif" width="96" height="41" alt="Honeywell" /></a></div>
+				<div class="brandLogo"><a href="#"><img src="/images/site-template/logo_lacrosse.gif" width="97" height="41" alt="La Crosse Technology" /></a></div>
+				<div class="brandLogo"><a href="#"><img src="/images/site-template/logo_oregon.gif" width="96" height="41" alt="Oregon Scientific" /></a></div>
+				<div class="brandLogo"><a href="#"><img src="/images/site-template/logo_rainwise.gif" width="97" height="41" alt="Rainwise, Inc." /></a></div>
+				<div id="brandLink"><a href="#">Shop all Brands</a> &raquo;</div>
+			</div>
+            -->
+			<div id="educationText">
+				<h1 class="featuredTitle">Weather Stations &amp; Weather Instruments</h1>
+				<p>By simply mounting a cabled or wireless outdoor sensor, our full line of cabled and <strong>wireless weather stations</strong> and <strong>wireless thermometers</strong> can provide a wealth of information about the weather just beyond your door. Whether you're looking for something simple or complex, these weather instruments are sure to fit your needs. Home weather stations also make a fantastic gift!</p>
+	
+				<p>WeatherShack offers a wide array of weather-related products from the world's leading weather equipment manufacturers. We look forward to serving you! <!-- If you've visited us before, see all of our latest <a href="#">New Products</a> on one page. --></p>
+			</div>
+			<div id="educationBanner"><a href="/static/education-center.html"><img src="/images/site-template/education_ctr_banner.gif" width="347" height="166" alt="Weather Station Education Center" /></a></div>
+			<div id="fiveSections">
+				<div class="sectionBox sectionBoxDark">
+					<div width='100%' style="text-align:center"<a href="/listing/basic-home-weather-stations.html"><img src="/images/site-template/section_basic_wstations.jpg" height="125" width="137" alt="Basic Home Weather Stations" /></a></div>
+					<a href="/listing/basic-home-weather-stations.html">Basic Home Weather Stations</a>
+					<p>Basic weather stations typically monitor a combination of indoor and outdoor temperature, humidity, and barometric pressure. They include a simple wireless sensor that mounts outside your home.</p>
+				</div>
+				<div class="sectionBox sectionBoxLight">
+					<div width='100%' style="text-align:center"<a href="/listing/complete-home-weather-stations.html"><img src="/images/site-template/section_complete_wstations.jpg" height="125" width="137" alt="Complete Home Weather Stations" /></a></div>
+					<a href="/listing/complete-home-weather-stations.html">Complete Home Weather Stations</a>
+					<p>Complete weather stations monitor wind, rain, temperature, humidity, and barometric pressure. They include one or more cabled or wireless sensors to mount outside your home.</p>
+				</div>
+				<div class="sectionBox sectionBoxDark">
+					<div width='100%' style="text-align:center"<a href="/listing/professional-weather-stations.html"><img src="/images/site-template/section_pro_wstations.jpg" height="125" width="137" alt="Professional Home Weather Stations" /></a></div>
+					<a href="/listing/professional-weather-stations.html">Professional Home Weather Stations</a>
+					<p>These weather stations have the accuracy, durability, and reliability needed for a variety of professional applications. </p>
+				</div>
+				<div class="sectionBox sectionBoxLight">
+					<div width='100%' style="text-align:center"<a href="/listing/analog-stations-barometers.html"><img src="/images/site-template/section_analog_wstations.jpg" height="125" width="137" alt="Analog Home Weather Stations" /></a></div>
+					<a href="/listing/analog-stations-barometers.html">Analog Home Weather Stations</a>
+					<p>Analog weather stations provide a unique view of our environment’s ever changing weather trends, while offering classic and innovative designs with furniture quality detailing that complement any décor.</p>
+				</div>
+				<div class="sectionBox sectionBoxDark">
+					<div width='100%' style="text-align:center"><a href="/listing/handheld-wind-weather-meters.html"><img src="/images/site-template/section-handheld-wind-meters-weather-stations.jpg" height="125" width="137" alt="Handheld Wind and Weather Meters" /></a></div>
+					<a href="/listing/handheld-wind-weather-meters.html">Handheld Wind and Weather Meters</a>
+					<p>All of our handheld weather meters measure wind. Depending on model other features include temperature, humidity, barometric pressure, heat index, and wind chill.</p>
+				</div>
+<!--
+				<div class="sectionBox sectionBoxDark">
+					<a href="/listing/internet-weather-forecasters.html"><img src="/images/site-template/section_weather_forecasters.jpg" height="125" width="137" alt="Internet Weather Forecasters" /></a>
+					<a href="/listing/internet-weather-forecasters.html">Internet Weather Forecasters</a>
+					<p>Weather Forecasters provide current weather conditions and the forecast for coming days. This data is provided free via the Internet or wireless paging networks.</p>
+				</div>
+-->
+			</div>
+			<div id="featuredProducts">
+				<h1 class="featuredTitle">Featured Weather Stations</h1>
+				<!--[CS]dynamic content area determined by featured items assigned in Back Office-->  <div class="featuredProductBox">
+									<a href="/product/la-crosse-technology-ws-9037u-it.html"><img src="/images/products/la-crosse-technology/ws-9037u-it-1b.jpg" width="175" height="175" alt="La Crosse Technology WS-9037U-IT" /></a><br />
+									<a href="/product/la-crosse-technology-ws-9037u-it.html">La Crosse Technology WS-9037U-IT</a><br /> Wireless Weather Station <br/><br/><span class="featuredProductPrice"> Our Price:   $69.95 </span>  <br/><span class="featuredProductShipping">FREE SHIPPING</span><!--[CS] "Free Shipping" appears only if product price greater than free shipping limit set in Back Office-->  </div>  <div class="featuredProductBox">
+									<a href="/product/acurite-01500.html"><img src="/images/products/acurite/01500-1b.jpg" width="175" height="175" alt="AcuRite 01500" /></a><br />
+									<a href="/product/acurite-01500.html">AcuRite 01500</a><br /> Complete Wireless Weather Station <br/><br/><span class="featuredProductPrice"> Our Price:   $139.95 </span>  <br/><span class="featuredProductShipping">FREE SHIPPING</span><!--[CS] "Free Shipping" appears only if product price greater than free shipping limit set in Back Office-->  </div>  <div class="featuredProductBox">
+									<a href="/product/davis-instruments-6152-6152c.html"><img src="/images/products/davis-instruments/6152-1b.jpg" width="175" height="175" alt="Davis Instruments 6152 &amp; 6152C" /></a><br />
+									<a href="/product/davis-instruments-6152-6152c.html">Davis Instruments 6152 &amp; 6152C</a><br /> Vantage Pro2 <br/><br/><span class="featuredProductPrice"> Sale Price:   $429.95 - $535.95 </span>  <br/><span class="featuredProductShipping">FREE SHIPPING</span><!--[CS] "Free Shipping" appears only if product price greater than free shipping limit set in Back Office-->  </div>  <div class="featuredProductBox">
+									<a href="/product/la-crosse-technology-ws-9057u-it-lc.html"><img src="/images/products/la-crosse-technology/ws-9057u-it-lc-1b.jpg" width="175" height="175" alt="La Crosse Technology WS-9057U-IT-LC" /></a><br />
+									<a href="/product/la-crosse-technology-ws-9057u-it-lc.html">La Crosse Technology WS-9057U-IT-LC</a><br /> Wireless Forecast Station <br/><br/><span class="featuredProductPrice"> Our Price:   $67.95 </span>  <br/><span class="featuredProductShipping">FREE SHIPPING</span><!--[CS] "Free Shipping" appears only if product price greater than free shipping limit set in Back Office-->  </div>  </div> 			<div id="whyShop"><img src="/images/site-template/why_shop.gif" width="970" alt="8 Reasons to Shop at WeatherShack.com and a note from our staff" /></div>
+			<nav><div id="testimonials">
+				<div id="testimonialsText">
+					<script type="text/javascript">
+<!--
+						var url_prefix = '/images/site-template/';
+						var url_ref = [{url:'testimonial_list_1.gif', width:970, height:223},	
+							{url:'testimonial_list_2.gif', width:970, height:223},
+							{url:'testimonial_list_3.gif', width:970, height:223}];
+						
+						function imgtag_from_URLspec(x)
+						{
+							return '<img src="'+url_prefix+x['url']+'" width='+x['width']+' height='+x['height']+' />';
+						}
+						
+						$('#testimonialsText').html(imgtag_from_URLspec(url_ref[Math.floor(url_ref.length*Math.random())]));
+//-->
+					</script>
+					
+				</div>
+				<div id="testimonialsLink"><a href="http://www.weathershack.com/static/testimonials.html"><img src="/images/site-template/more_customers_say.gif" width="161" height="223" alt="More Customer Testimonials" /></a></div>
+			</div>
+			<div id="newsletterAndSpecials">
+				<div id="signupGraphic"><img src="/images/site-template/newsletter_signup.gif" width="245" height="59" alt="Sign Up for Email Newsletter" /></div>
+				<div id="signupText">Get the latest information about new products, special deals, news, top-rated items, promotions and more!</div>
+				<div id="signupInput">
+<script type="text/javascript">
+<!--
+function ValidateNewsletter()
+{
+	var x = new Email(document.newsletter.e.value);
+	var error = '';
+	if (x.isInvalid()) error += "Please use a valid email address.\n";
+	if (error) alert(error);
+	return !error;
+}
+//-->
+</script>
+					<form name="newsletter" method="post" action="/cgi-bin/RequestNewsletter.cgi" onsubmit="return ValidateNewsletter();">
+					<div><input type="text" class="emailBox" name="e" value="Enter email" onfocus="if(this.value == 'Enter email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email';}" /></div>
+					<div><input type="image" class="emailButton" src="/images/site-template/btn_email_submit.gif" alt="Submit" /></div>
+					</form> 
+				</div>
+				<div id="specialBuysGraphic"><a href="http://www.weathershack.com/listing/special-buys.html"><img src="/images/site-template/special_buys.gif" width="255" height="59" alt="Special Buys: Shop Sale and Clearance" /></a></div>
+			</div></nav>
+
+ </div>
+	</div> 	<div id="siteFooter">
+		<nav><div id="footerContent">
+			<div id="footerCol1">
+				<img src="/images/site-template/ftr_shopping_info.gif" width="199" height="24" alt="Shopping Information" /><br />
+				<a href="http://www.weathershack.com/static/return-policy.html">Return Policy</a><br />
+				<a href="http://www.weathershack.com/static/satisfaction-guaranteed.html">Satisfaction Guaranteed</a><br />
+				<a href="http://www.weathershack.com/static/ship-methods.html">Ship Methods &amp; Delivery Times</a><br />
+				<a href="http://www.weathershack.com/static/ordering-methods.html">Ordering Methods &amp; Payment Options</a><br />
+<!--				<a href="http://www.weathershack.com/static/gift-certificates.html">Gift Certificates</a><br /> -->
+				<a href="http://www.weathershack.com/static/international-orders.html">International Orders</a><br />
+				<a href="http://www.weathershack.com/static/education-center.html">Education Center</a><br />
+				<a href="http://www.weathershack.com/static/site-map.html">Site Map</a><br />
+				<a href="http://www.weathershack.com/static/faq.html">FAQ</a><br />
+<!--				<div class="colEndImages"><a href="http://www.weathershack.com/static/gift-certificates.html"><img src="/images/site-template/ftr_gift_certificates_available.gif" width="173" height="64" alt="Gift Certificates Available" /></a></div> -->
+			</div>
+			<div id="footerCol2">
+				<img src="/images/site-template/ftr_customer_service.gif" width="164" height="24" alt="Customer Service" /><br />
+				<a href="http://www.weathershack.com/static/contact-us.html">Contact Us</a><br />
+				<a href="http://www.weathershack.com/static/order-status.html">Order Status</a><br />
+				<a href="http://www.weathershack.com/static/cancel-or-change-order.html">Cancel or Change an Order</a><br />
+				<a href="http://www.weathershack.com/static/printable-receipt.html">Printable Receipt</a><br />
+				<a href="http://www.weathershack.com/static/product-returns.html">Product Returns</a><br />
+				<a href="http://www.weathershack.com/static/technical-support.html">Technical Support</a><br />
+				<a href="http://www.weathershack.com/static/link-to-us.html">Link to Us</a><br />
+				<a href="http://www.weathershack.com/static/recommended-sites.html">Recommended Sites</a><br />
+				<div class="colEndImages"><img src="/images/site-template/ftr_let_us_help.gif" width="144" height="67" alt="Customer Service 888-992-2270" /></div>
+			</div>
+			<div id="footerCol3">
+				<img src="/images/site-template/ftr_shop_confidence.gif" width="202" height="24" alt="Shop With Confidence" /><br />
+				<a href="http://www.weathershack.com/static/about-us.html">About Us</a><br />
+				<a href="http://www.weathershack.com/static/privacy-policy.html">Privacy Policy</a><br />
+
+				<a href="http://www.weathershack.com/static/terms-of-use.html">Terms of Use</a><br />
+				<div class="colEndImages">
+				<a href="http://www.shopperapproved.com/reviews/weathershack.com/" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; var certheight=screen.availHeight-90; window.open(this.href,'shopperapproved','location='+nonwin+',scrollbars=yes,width=620,height='+certheight+',menubar=no,toolbar=no'); return false;"><img src="https://c683207.ssl.cf2.rackcdn.com/4880-m.gif" style="border: 0" alt="" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by shopperapproved \251 '+d.getFullYear()+'.'); return false;" /></a>  <a target="_blank" href="http://www.bbb.org/western-virginia/business-reviews/weather-instruments/weathershack-com-in-roanoke-va-7000936/"><img src="/images/site-template/ftr_bbb_accredited_banner.gif" width="123" height="32" alt="BBB Accredited Business" /></a><a target="_blank" href="https://www.scanalert.com/RatingVerify?ref=www.weathershack.com"><img src="https://images.scanalert.com/meter/www.weathershack.com/12.gif" alt="HACKER SAFE certified sites prevent over 99.9% of hacker crime." width="115" height="32" /></a><span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=rCjGLHOp4z3wmDDPvgfX489EqpRZr7QVKYRm8Hn6URIGngF3UHE0"></script></span><a href="http://www.weathershack.com/static/privacy-policy.html"><img src="/images/site-template/ftr_privacy_assured.gif" width="92" height="31" alt="Privacy Assured" /></a><img src="/images/site-template/ftr_credit_cards.gif" width="225" height="31" alt="Visa, Mastercard, Discover, American Express, PayPal accepted" />
+				</div>
+			</div>
+			<div id="footerCol4">
+				<!--Facebook Like BEGIN-->
+				<div class="facebook">
+					<a href="http://www.facebook.com/WeatherShack"><img src="/images/site-template/facebook-join-us.gif" width="183" height="35" alt="Join Us on Facebook" /></a><iframe src="https://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fweathershack&amp;width=185&amp;colorscheme=light&amp;connections=0&amp;stream=false&amp;header=true&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:185px; height:65px;" allowtransparency="true"></iframe>
+				</div>
+				<!--Facebook Like END-->
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style addthis">
+					<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=brnp" class="addthis_button_compact">Share With Friends &amp; Family</a>
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+				<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=brnp"></script>
+				<!-- AddThis Button END -->
+
+			</div>
+		</div>
+		<div id="lowerFooterContent">
+			<div id="lowerFooterLogo"><a href="http://www.weathershack.com/"><img src="/images/site-template/ftr_weathershack_logo.gif" width="226" height="85" alt="Weathershack.com" /></a><br />Copyright &copy; 2002-2014<br />WeatherShack.com<br />All Rights Reserved.
+			</div>
+			<div id="lowerFooterTellBox" style="margin-top:17px">
+				<div id="tellBoxTitle" style="margin-top:10px"><img src="/images/site-template/ftr_tell_title.gif" width="237" height="19" alt="Tell Us What You Think!" /></div>
+				<div id="tellBoxText">We welcome your comments and suggestions.  Send us your feedback on our products, website, or whatever else is on your mind.  We look forward to hearing from you!  Visit our <a class="product_link_colors" href="http://www.weathershack.com/static/contact-us.html">contact us</a> page.</div>
+				<!-- <div style="clear:left">If you require customer service, please visit our <a class="product_link_colors" href="http://www.weathershack.com/static/contact-us.html">contact us</a> page.</div> -->
+			</div>
+		</div></nav>
+	</div>
+<script type="text/javascript">
+// <![CDATA[
+$(window).load(function() {
+	$.post('/cgi-bin/CountCartItems.cgi', 'AJAX=1', function(data){$('#cart_count').replaceWith(data);});
+});
+$(window).load(function() {
+	$.post('/cgi-bin/CartValue.cgi', 'AJAX=1', function(data){$('#cart_value').replaceWith(data);});
+}); $(document).on("click",$('a[href="/listing/weathershackcom-root.html"]'),function() {return removeFilter(1);});
+$(document).on("click",$('a[href="/listing/weather-stations.html"]'),function() {return removeFilter(2);});
+$(document).on("click",$('a[href="/listing/weather-radios.html"]'),function() {return removeFilter(4);});
+$(document).on("click",$('a[href="/listing/lightning-detectors.html"]'),function() {return removeFilter(5);});
+$(document).on("click",$('a[href="/listing/home-garden.html"]'),function() {return removeFilter(7);});
+$(document).on("click",$('a[href="/listing/electronic-weather-stations.html"]'),function() {return removeFilter(8);});
+$(document).on("click",$('a[href="/listing/basic-home-weather-stations.html"]'),function() {return removeFilter(9);});
+$(document).on("click",$('a[href="/listing/complete-home-weather-stations.html"]'),function() {return removeFilter(10);});
+$(document).on("click",$('a[href="/listing/professional-weather-stations.html"]'),function() {return removeFilter(11);});
+$(document).on("click",$('a[href="/listing/analog-stations-barometers.html"]'),function() {return removeFilter(13);});
+$(document).on("click",$('a[href="/listing/anemometers.html"]'),function() {return removeFilter(15);});
+$(document).on("click",$('a[href="/listing/handheld-anemometers.html"]'),function() {return removeFilter(16);});
+$(document).on("click",$('a[href="/listing/mounted-anemometers.html"]'),function() {return removeFilter(17);});
+$(document).on("click",$('a[href="/listing/hygrometers.html"]'),function() {return removeFilter(22);});
+$(document).on("click",$('a[href="/listing/digital-hygrometers.html"]'),function() {return removeFilter(23);});
+$(document).on("click",$('a[href="/listing/analog-hygrometers.html"]'),function() {return removeFilter(24);});
+$(document).on("click",$('a[href="/listing/rain-gauges.html"]'),function() {return removeFilter(25);});
+$(document).on("click",$('a[href="/listing/digital-wireless-rain-gauges.html"]'),function() {return removeFilter(26);});
+$(document).on("click",$('a[href="/listing/manual-rain-gauges.html"]'),function() {return removeFilter(27);});
+$(document).on("click",$('a[href="/listing/thermometers.html"]'),function() {return removeFilter(28);});
+$(document).on("click",$('a[href="/listing/digital-wireless-thermometers.html"]'),function() {return removeFilter(29);});
+$(document).on("click",$('a[href="/listing/classic-dial-thermometers.html"]'),function() {return removeFilter(30);});
+$(document).on("click",$('a[href="/listing/portable-weather-radios.html"]'),function() {return removeFilter(32);});
+$(document).on("click",$('a[href="/listing/desktop-weather-radios.html"]'),function() {return removeFilter(33);});
+$(document).on("click",$('a[href="/listing/handheld-wind-weather-meters.html"]'),function() {return removeFilter(37);});
+$(document).on("click",$('a[href="/listing/premium-led-flashlights.html"]'),function() {return removeFilter(39);});
+$(document).on("click",$('a[href="/listing/compact-led-flashlights.html"]'),function() {return removeFilter(40);});
+$(document).on("click",$('a[href="/listing/standard-led-flashlights.html"]'),function() {return removeFilter(41);});
+$(document).on("click",$('a[href="/listing/two-way-weather-radios.html"]'),function() {return removeFilter(44);});
+$(document).on("click",$('a[href="/listing/clocks.html"]'),function() {return removeFilter(45);});
+$(document).on("click",$('a[href="/listing/digital-wall-table-clocks.html"]'),function() {return removeFilter(46);});
+$(document).on("click",$('a[href="/listing/analog-table-mantel-clocks.html"]'),function() {return removeFilter(47);});
+$(document).on("click",$('a[href="/listing/outdoor-clocks.html"]'),function() {return removeFilter(48);});
+$(document).on("click",$('a[href="/listing/tide-clocks.html"]'),function() {return removeFilter(49);});
+$(document).on("click",$('a[href="/listing/rainwise-weather-stations.html"]'),function() {return removeFilter(51);});
+$(document).on("click",$('a[href="/listing/davis-vantage-pro2-weather-stations.html"]'),function() {return removeFilter(52);});
+$(document).on("click",$('a[href="/listing/rainwise-accessories.html"]'),function() {return removeFilter(53);});
+$(document).on("click",$('a[href="/listing/davis-instruments-accessories.html"]'),function() {return removeFilter(54);});
+$(document).on("click",$('a[href="/listing/la-crosse-accessories.html"]'),function() {return removeFilter(55);});
+$(document).on("click",$('a[href="/listing/oregon-scientific-accessories.html"]'),function() {return removeFilter(56);});
+$(document).on("click",$('a[href="/listing/kestrel-instruments-accessories.html"]'),function() {return removeFilter(57);});
+$(document).on("click",$('a[href="/listing/speedtech-instruments-accessories.html"]'),function() {return removeFilter(58);});
+$(document).on("click",$('a[href="/listing/thunderbolt-accessories.html"]'),function() {return removeFilter(59);});
+$(document).on("click",$('a[href="/listing/station-mounting-hardware.html"]'),function() {return removeFilter(60);});
+$(document).on("click",$('a[href="/listing/new-mountain-accessories.html"]'),function() {return removeFilter(61);});
+$(document).on("click",$('a[href="/listing/inclinometers.html"]'),function() {return removeFilter(63);});
+$(document).on("click",$('a[href="/listing/parts-accessories-by-brand.html"]'),function() {return removeFilter(64);});
+$(document).on("click",$('a[href="/listing/fenix-accessories.html"]'),function() {return removeFilter(65);});
+$(document).on("click",$('a[href="/listing/olight-accessories.html"]'),function() {return removeFilter(66);});
+$(document).on("click",$('a[href="/listing/vantage-pro2-accessories.html"]'),function() {return removeFilter(67);});
+$(document).on("click",$('a[href="/listing/weatherlink-software-accessories.html"]'),function() {return removeFilter(69);});
+$(document).on("click",$('a[href="/listing/original-vantage-pro-accessories.html"]'),function() {return removeFilter(70);});
+$(document).on("click",$('a[href="/listing/analog-wall-clocks.html"]'),function() {return removeFilter(71);});
+$(document).on("click",$('a[href="/listing/traditional-analog-thermometers.html"]'),function() {return removeFilter(72);});
+$(document).on("click",$('a[href="/listing/classic-tube-thermometers.html"]'),function() {return removeFilter(73);});
+$(document).on("click",$('a[href="/listing/handheld-pocket-thermometers.html"]'),function() {return removeFilter(74);});
+$(document).on("click",$('a[href="/listing/digital-clock-thermometer-combos.html"]'),function() {return removeFilter(75);});
+$(document).on("click",$('a[href="/listing/analog-clock-thermometer-combos.html"]'),function() {return removeFilter(76);});
+$(document).on("click",$('a[href="/listing/web-alert-thermometers.html"]'),function() {return removeFilter(77);});
+$(document).on("click",$('a[href="/listing/weems-plath-atlantis-series.html"]'),function() {return removeFilter(78);});
+$(document).on("click",$('a[href="/listing/weems-plath-bluewater-series.html"]'),function() {return removeFilter(79);});
+$(document).on("click",$('a[href="/listing/weems-plath-endurance-series.html"]'),function() {return removeFilter(80);});
+$(document).on("click",$('a[href="/listing/weems-plath-jeffersonian-series.html"]'),function() {return removeFilter(81);});
+$(document).on("click",$('a[href="/listing/stormglasses.html"]'),function() {return removeFilter(82);});
+$(document).on("click",$('a[href="/listing/weems-plath-accessories.html"]'),function() {return removeFilter(83);});
+$(document).on("click",$('a[href="/listing/midland-accessories.html"]'),function() {return removeFilter(84);});
+$(document).on("click",$('a[href="/listing/special-buys.html"]'),function() {return removeFilter(86);});
+$(document).on("click",$('a[href="/listing/weatherlink-software.html"]'),function() {return removeFilter(87);});
+$(document).on("click",$('a[href="/listing/vantage-pro2-iss.html"]'),function() {return removeFilter(89);});
+$(document).on("click",$('a[href="/listing/vantage-vue-accessories.html"]'),function() {return removeFilter(90);});
+$(document).on("click",$('a[href="/listing/black-friday-to-cyber-monday-special-buys.html"]'),function() {return removeFilter(91);});
+$(document).on("click",$('a[href="/listing/productive-alternatives-accessories.html"]'),function() {return removeFilter(92);});
+$(document).on("click",$('a[href="/listing/aluminum-wind-chimes.html"]'),function() {return removeFilter(93);});
+$(document).on("click",$('a[href="/listing/capiz-shell-wind-chimes.html"]'),function() {return removeFilter(94);});
+$(document).on("click",$('a[href="/listing/bamboo-wind-chimes.html"]'),function() {return removeFilter(95);});
+$(document).on("click",$('a[href="/listing/bells-windbells.html"]'),function() {return removeFilter(96);});
+$(document).on("click",$('a[href="/listing/crystal-suncatchers.html"]'),function() {return removeFilter(97);});
+$(document).on("click",$('a[href="/listing/wind-chimes.html"]'),function() {return removeFilter(98);});
+$(document).on("click",$('a[href="/listing/davis-instruments.html"]'),function() {return removeFilter(100);});
+$(document).on("click",$('a[href="/listing/davis-instruments-weather-stations.html"]'),function() {return removeFilter(101);});
+$(document).on("click",$('a[href="/listing/davis-instruments-handheld-anemometers.html"]'),function() {return removeFilter(102);});
+$(document).on("click",$('a[href="/listing/brands.html"]'),function() {return removeFilter(104);});
+$(document).on("click",$('a[href="/listing/kestrel.html"]'),function() {return removeFilter(105);});
+$(document).on("click",$('a[href="/listing/la-crosse-technology.html"]'),function() {return removeFilter(106);});
+$(document).on("click",$('a[href="/listing/laylin-associates.html"]'),function() {return removeFilter(107);});
+$(document).on("click",$('a[href="/listing/meade-instruments.html"]'),function() {return removeFilter(108);});
+$(document).on("click",$('a[href="/listing/midland.html"]'),function() {return removeFilter(109);});
+$(document).on("click",$('a[href="/listing/new-mountain.html"]'),function() {return removeFilter(110);});
+$(document).on("click",$('a[href="/listing/oh-crow.html"]'),function() {return removeFilter(111);});
+$(document).on("click",$('a[href="/listing/oregon-scientific.html"]'),function() {return removeFilter(112);});
+$(document).on("click",$('a[href="/listing/outdoors-technologies.html"]'),function() {return removeFilter(113);});
+$(document).on("click",$('a[href="/listing/productive-alternatives.html"]'),function() {return removeFilter(114);});
+$(document).on("click",$('a[href="/listing/rainwise.html"]'),function() {return removeFilter(115);});
+$(document).on("click",$('a[href="/listing/speedtech-instruments.html"]'),function() {return removeFilter(116);});
+$(document).on("click",$('a[href="/listing/taylor-precision.html"]'),function() {return removeFilter(117);});
+$(document).on("click",$('a[href="/listing/thunderbolt.html"]'),function() {return removeFilter(118);});
+$(document).on("click",$('a[href="/listing/weems-plath.html"]'),function() {return removeFilter(119);});
+$(document).on("click",$('a[href="/listing/woodstock.html"]'),function() {return removeFilter(120);});
+$(document).on("click",$('a[href="/listing/kestrel-handheld-wind-weather-meters.html"]'),function() {return removeFilter(121);});
+$(document).on("click",$('a[href="/listing/la-crosse-basic-home-weather-stations.html"]'),function() {return removeFilter(123);});
+$(document).on("click",$('a[href="/listing/la-crosse-complete-home-weather-stations.html"]'),function() {return removeFilter(124);});
+$(document).on("click",$('a[href="/listing/la-crosse-weather-forecasters.html"]'),function() {return removeFilter(125);});
+$(document).on("click",$('a[href="/listing/la-crosse-weather-radios.html"]'),function() {return removeFilter(126);});
+$(document).on("click",$('a[href="/listing/la-crosse-analog-wall-clocks.html"]'),function() {return removeFilter(127);});
+$(document).on("click",$('a[href="/listing/la-crosse-digital-wall-table-clocks.html"]'),function() {return removeFilter(128);});
+$(document).on("click",$('a[href="/listing/la-crosse-classic-dial-thermometers.html"]'),function() {return removeFilter(129);});
+$(document).on("click",$('a[href="/listing/la-crosse-classic-tube-thermometers.html"]'),function() {return removeFilter(130);});
+$(document).on("click",$('a[href="/listing/la-crosse-manual-rain-gauges.html"]'),function() {return removeFilter(131);});
+$(document).on("click",$('a[href="/listing/la-crosse-digital-wireless-rain-gauges.html"]'),function() {return removeFilter(132);});
+$(document).on("click",$('a[href="/listing/la-crosse-handheld-anemometers.html"]'),function() {return removeFilter(133);});
+$(document).on("click",$('a[href="/listing/meade-instruments-basic-home-weather-stations.html"]'),function() {return removeFilter(134);});
+$(document).on("click",$('a[href="/listing/meade-instruments-complete-home-weather-stations.html"]'),function() {return removeFilter(135);});
+$(document).on("click",$('a[href="/listing/midland-weather-radios.html"]'),function() {return removeFilter(136);});
+$(document).on("click",$('a[href="/listing/midland-2-way-radios.html"]'),function() {return removeFilter(137);});
+$(document).on("click",$('a[href="/listing/new-mountain-weather-stations.html"]'),function() {return removeFilter(138);});
+$(document).on("click",$('a[href="/listing/oregon-scientific-complete-home-weather-stations.html"]'),function() {return removeFilter(139);});
+$(document).on("click",$('a[href="/listing/oregon-scientific-digital-wireless-rain-gauges.html"]'),function() {return removeFilter(140);});
+$(document).on("click",$('a[href="/listing/oregon-scientific-weather-radios.html"]'),function() {return removeFilter(141);});
+$(document).on("click",$('a[href="/listing/rainwise-mounted-anemometers.html"]'),function() {return removeFilter(142);});
+$(document).on("click",$('a[href="/listing/rainwise-digital-wireless-rain-gauges.html"]'),function() {return removeFilter(143);});
+$(document).on("click",$('a[href="/listing/speedtech-instruments-handheld-wind-weather-meters.html"]'),function() {return removeFilter(144);});
+$(document).on("click",$('a[href="/listing/springfield-instruments.html"]'),function() {return removeFilter(145);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-digital-thermometers.html"]'),function() {return removeFilter(146);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-classic-dial-thermometers.html"]'),function() {return removeFilter(147);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-classic-tube-thermometers.html"]'),function() {return removeFilter(148);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-analog-hygrometers.html"]'),function() {return removeFilter(149);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-digital-wireless-rain-gauges.html"]'),function() {return removeFilter(150);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-manual-rain-gauges.html"]'),function() {return removeFilter(151);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-analog-clock-thermometer-combos.html"]'),function() {return removeFilter(152);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-analog-wall-clocks.html"]'),function() {return removeFilter(153);});
+$(document).on("click",$('a[href="/listing/springfield-instruments-weather-radios.html"]'),function() {return removeFilter(154);});
+$(document).on("click",$('a[href="/listing/taylor-precision-analog-weather-stations.html"]'),function() {return removeFilter(155);});
+$(document).on("click",$('a[href="/listing/taylor-precision-classic-dial-thermometers.html"]'),function() {return removeFilter(157);});
+$(document).on("click",$('a[href="/listing/taylor-precision-classic-tube-thermometers.html"]'),function() {return removeFilter(158);});
+$(document).on("click",$('a[href="/listing/taylor-precision-analog-hygrometers.html"]'),function() {return removeFilter(159);});
+$(document).on("click",$('a[href="/listing/taylor-precision-analog-clock-thermometer-combos.html"]'),function() {return removeFilter(160);});
+$(document).on("click",$('a[href="/listing/taylor-precision-digital-wireless-rain-gauges.html"]'),function() {return removeFilter(161);});
+$(document).on("click",$('a[href="/listing/taylor-precision-manual-rain-gauges.html"]'),function() {return removeFilter(162);});
+$(document).on("click",$('a[href="/listing/thunderbolt-lightning-detectors.html"]'),function() {return removeFilter(163);});
+$(document).on("click",$('a[href="/listing/weems-plath-analog-weather-stations.html"]'),function() {return removeFilter(164);});
+$(document).on("click",$('a[href="/listing/weems-plath-analog-barometers.html"]'),function() {return removeFilter(165);});
+$(document).on("click",$('a[href="/listing/weems-plath-classic-dial-thermometers.html"]'),function() {return removeFilter(166);});
+$(document).on("click",$('a[href="/listing/weems-plath-classic-tube-thermometers.html"]'),function() {return removeFilter(167);});
+$(document).on("click",$('a[href="/listing/weems-plath-analog-hygrometers.html"]'),function() {return removeFilter(168);});
+$(document).on("click",$('a[href="/listing/weems-plath-manual-rain-gauges.html"]'),function() {return removeFilter(169);});
+$(document).on("click",$('a[href="/listing/weems-plath-mounted-anemometers.html"]'),function() {return removeFilter(170);});
+$(document).on("click",$('a[href="/listing/weems-plath-stormglasses.html"]'),function() {return removeFilter(171);});
+$(document).on("click",$('a[href="/listing/weems-plath-analog-table-mantel-clocks.html"]'),function() {return removeFilter(172);});
+$(document).on("click",$('a[href="/listing/weems-plath-analog-wall-clocks.html"]'),function() {return removeFilter(173);});
+$(document).on("click",$('a[href="/listing/weems-plath-tide-clocks.html"]'),function() {return removeFilter(174);});
+$(document).on("click",$('a[href="/listing/weems-plath-inclinometers.html"]'),function() {return removeFilter(175);});
+$(document).on("click",$('a[href="/listing/woodstock-classic-wind-chimes.html"]'),function() {return removeFilter(176);});
+$(document).on("click",$('a[href="/listing/woodstock-artistic-wind-chimes.html"]'),function() {return removeFilter(177);});
+$(document).on("click",$('a[href="/listing/woodstock-bamboo-wind-chimes.html"]'),function() {return removeFilter(178);});
+$(document).on("click",$('a[href="/listing/woodstock-bells-gongs.html"]'),function() {return removeFilter(179);});
+$(document).on("click",$('a[href="/listing/woodstock-suncatchers.html"]'),function() {return removeFilter(180);});
+$(document).on("click",$('a[href="/listing/la-crosse-battery-chargers.html"]'),function() {return removeFilter(181);});
+$(document).on("click",$('a[href="/listing/alert-works.html"]'),function() {return removeFilter(182);});
+$(document).on("click",$('a[href="/listing/arias.html"]'),function() {return removeFilter(183);});
+$(document).on("click",$('a[href="/listing/arias-elite.html"]'),function() {return removeFilter(184);});
+$(document).on("click",$('a[href="/listing/corinthian-bells.html"]'),function() {return removeFilter(185);});
+$(document).on("click",$('a[href="/listing/shenandoah-melodies.html"]'),function() {return removeFilter(186);});
+$(document).on("click",$('a[href="/listing/weatherland.html"]'),function() {return removeFilter(187);});
+$(document).on("click",$('a[href="/listing/acurite-complete-home-weather-stations.html"]'),function() {return removeFilter(188);});
+$(document).on("click",$('a[href="/listing/acurite.html"]'),function() {return removeFilter(189);});
+$(document).on("click",$('a[href="/listing/acurite-basic-home-weather-stations.html"]'),function() {return removeFilter(190);});
+$(document).on("click",$('a[href="/listing/acurite-weather-radios.html"]'),function() {return removeFilter(191);});
+$(document).on("click",$('a[href="/listing/additional-products.html"]'),function() {return removeFilter(192);});
+$(document).on("click",$('a[href="/listing/wind-gongs.html"]'),function() {return removeFilter(193);});
+$(document).on("click",$('a[href="/listing/crystal-glass-wind-chimes.html"]'),function() {return removeFilter(194);});
+$(document).on("click",$('a[href="/listing/hand-crank-weather-radios.html"]'),function() {return removeFilter(195);});
+$(document).on("click",$('a[href="/listing/same-weather-radios.html"]'),function() {return removeFilter(197);});
+$(document).on("click",$('a[href="/listing/conant.html"]'),function() {return removeFilter(198);});
+$(document).on("click",$('a[href="/listing/acurite-classic-dial-thermometers.html"]'),function() {return removeFilter(199);});
+$(document).on("click",$('a[href="/listing/acurite-analog-wall-clocks.html"]'),function() {return removeFilter(200);});
+$(document).on("click",$('a[href="/listing/acurite-analog-weather-stations.html"]'),function() {return removeFilter(201);});
+$(document).on("click",$('a[href="/listing/acurite-digital-wall-table-clocks.html"]'),function() {return removeFilter(202);});
+$(document).on("click",$('a[href="/listing/acurite-digital-wireless-rain-gauges.html"]'),function() {return removeFilter(203);});
+$(document).on("click",$('a[href="/listing/acurite-lightning-detectors.html"]'),function() {return removeFilter(204);});
+$(document).on("click",$('a[href="/listing/wi-fi-weather-stations.html"]'),function() {return removeFilter(205);});
+$(document).on("click",$('a[href="/listing/bird-feeder-thermometers.html"]'),function() {return removeFilter(206);});
+ // ]]>
+</script>
+<!-- Google Code for All Visitors Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1072213539;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "-SqUCKPnyAIQo9yi_wM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1072213539/?label=-SqUCKPnyAIQo9yi_wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- End Google Code for All Visitors Remarketing List -->
+<!-- Adroll visitor tracking code -->
+<script type="text/javascript">   adroll_adv_id = "WUPIC5LL4VBZZFE2J3LOIH";
+adroll_pix_id = "PHQLZVKFYNAD7F6I5VSYRF";
+(function () { var oldonload = window.onload; window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+<!-- End Adroll visitor tracking code -->
+ </body>
+</html>
