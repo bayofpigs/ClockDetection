@@ -1,0 +1,6 @@
+
+
+detectSVM(images)
+detectGeometry(images)
+
+
