@@ -1,0 +1,13 @@
+How to use the major functions:
+
+Detect the time with human input -
+call detect_time(I) where I is an image, then click on two points to specify
+1. the center of the clock
+2. the edge of the clock
+
+This returns the hour and the minute the clock is showing, and will pop up a window with the
+bounding boxes for the hands outlined
+
+
+Circle detection as an example of a very naive clock detector
+call circle_bounding_box(I)

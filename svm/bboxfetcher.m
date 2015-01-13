@@ -1,15 +1,34 @@
 function thistruth = bboxfetcher()
 
-  for i=1:6
-    im = imread(sprintf('data2/image%02d.jpg', i));  
-    imshow(im);  
-    imp = impoly;
-    pos = getPosition(imp);
+  for i=51:186
+    if i == 72 || i == 89 || i == 94 || i == 138
+      continue
+    end
 
-    [pos(1, :), pos(3, :) - pos(1, :)]
-    topLeft = pos(1, :);
-    botRight = pos(3, :) - pos(1, :);
-    boxPosition{i} = [topLeft, botRight];
+    try
+      imageRgb = imread(sprintf('../images/data%03d.jpg', i));
+    catch exception 
+      fprintf('Unable to read image %03d, continuing\n', i);
+      continue
+    end
+
+    im = imread(sprintf('../images/data%03d.jpg', i));  
+    imshow(im);  
+
+    % The bounding box must be listed as 
+    % 1. topleft corner
+    % 2. the height and the width
+
+    bboxes = []
+
+    while 1
+      try
+        bboxes = [bboxes; getrect]
+      catch exception
+        break
+      end
+    end
+    boxPosition{i} = bboxes;
     imageNum{i} = i;
   end
 

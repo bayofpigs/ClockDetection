@@ -1,22 +1,38 @@
 function  TrainingMain_hog(imageNumPos,groundTruthBbs,Outputpath,opt,replace)
 
-Modeltosavefullpath = sprintf('%s/TrainedModel%02d.mat',Outputpath,imageNumPos);%[Outputpath '/' num2str(imageNumPos) '.mat'];
+Modeltosavefullpath = sprintf('%s/TrainedModel%03d.mat',Outputpath,imageNumPos);%[Outputpath '/' num2str(imageNumPos) '.mat'];
 if exist(Modeltosavefullpath,'file')&& ~replace
     fprintf('skip training model: %s\n.',Modeltosavefullpath);  
 else
     %% gen Pos
     BB = groundTruthBbs([groundTruthBbs.imageNum]==imageNumPos);
     BB = round(BB.gtBb2D);
+    
+    BB
 
     % CODE REPLACED FOR EXTRA CREDIT
     %imageRgb = imread(sprintf('./data/image%02d.jpg',imageNumPos)); 
-    imageRgb = imread(sprintf('./data2/image%02d.jpg',imageNumPos)); 
+    imageRgb = imread(sprintf('../images/data%03d.jpg',imageNumPos)); 
 
     featurePym = feature_pyramid(imageRgb);
     [Pos_all,size_pos] = getTemplate(featurePym, [BB(1),BB(2),BB(1)+BB(3),BB(2)+BB(4)]);
     pos = reshape(Pos_all,size_pos);
     figure,
     subplot(1,2,1)
+
+    if BB(1) + BB(3) > size(imageRgb, 2)
+        fprintf ('Bounded box out of image region, recalculating.')
+        BB(3) = size(imageRgb, 2) - BB(1) - 1;
+    end
+
+    if BB(2) + BB(4) > size(imageRgb, 1)
+        fprintf ('Bounded box out of image region, recalculating')
+        BB(4) = size(imageRgb, 1) - BB(2) - 1;
+    end
+
+    BB
+    size(imageRgb)
+
     imshow(imageRgb(BB(2):BB(2)+BB(4),BB(1):BB(1)+BB(3),:))
     subplot(1,2,2)
     showHOG(pos);
@@ -34,7 +50,7 @@ else
 
        % CODE REPLACED FOR EXTRA CREDIT
        %imageRgb = imread(sprintf('./data/image%02d.jpg',imageNum));
-       imageRgb = imread(sprintf('./data2/image%02d.jpg',imageNum));
+       imageRgb = imread(sprintf('../images/data%03d.jpg',imageNum));
 
        featureNeg = feature_pyramid(imageRgb);
        postive_bb = groundTruthBbs([groundTruthBbs.imageNum]==imageNum);
@@ -82,7 +98,7 @@ else
 
                 % CODE REPLACED FOR EXTRA CREDIT
                 %imageRgb = imread(sprintf('./data/image%02d.jpg',imageNum));
-                imageRgb = imread(sprintf('./data2/image%02d.jpg',imageNum));
+                imageRgb = imread(sprintf('../images/data%03d.jpg',imageNum));
 
                 postive_bb =groundTruthBbs([groundTruthBbs.imageNum]==imageNum);
                 featureNeg = feature_pyramid(imageRgb);
